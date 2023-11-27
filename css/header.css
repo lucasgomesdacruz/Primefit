@@ -1,0 +1,42 @@
+header {
+    width: 100%;
+    background-color: var(--color-main);
+}
+
+.container-lg-header{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.navbar-brand b {
+    color: var(--color-background);
+    font-family:  Arial, Helvetica, sans-serif;
+}
+
+.navbar-nav {
+    gap: 20px;
+}
+
+.nav-link {
+    color: var(--color-background) !important;
+}
+
+
+.btn-icon .icon{
+    display: inline-block;
+    color: var(--color-background);
+    position: absolute;
+    right: 70px;
+    margin-top: -20px;
+    padding-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
