@@ -1,0 +1,33 @@
+.numbers-animation-bg {
+    background-color: var(--color-main);
+}
+
+.numbers-animation-container {
+    padding: 80px 0px 80px 0px;
+    gap: 50px;
+}
+
+.numbers-animation-bg img {
+    width: 60px;
+    transform: rotate(0deg) scale(1);
+    transition: transform 0.8s ease;
+}
+
+.numbers-animation-bg img:hover {
+    transform: rotate(360deg) scale(0.8);
+}
+
+.numbers-animation-text {
+    color: var(--color-background);
+    flex-direction: column;
+}
+
+.number-title {
+    font-size: 25px;
+}
+
+.title-type {
+    font-size: 15px;
+}
+
+
