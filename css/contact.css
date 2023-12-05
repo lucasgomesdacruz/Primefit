@@ -1,4 +1,70 @@
 .contact {
-    background-color: var(--color-main);
-    height: 100px;
+    background-color: #232323;
+    height: 100%;
+    color: white;
 }
+
+.contact-title {
+    padding: 80px 0px 160px 0px;
+}
+
+.contact-title h2 {
+    color: white;
+    font-size: 54px;
+}
+
+.contact-title img {
+    width: 60px;
+    margin-left: 7px;
+}
+
+.contact-title p {
+    color: white;
+    font-size: 24px;
+    width: 500px;
+}
+
+.contact-info {
+    position: relative;
+}
+
+.barra {
+    content: '';
+    position: absolute;
+    top: -90px;
+    left: 0px;
+    height: 2px;
+    width: 100%;
+    background-color: #3d3d3d;
+}
+
+
+.contact-middle p {
+    font-size: 12px;
+    color: #989898;
+    
+}
+
+.contact-local p {
+    font-size: 12px;
+    color: #989898;
+}
+
+.contact-local h2 {
+    font-size: 25px;
+}
+
+.contact-local h3 {
+    color: #989898;
+    font-size: 20px;
+}
+
+.contact-local-containers {
+    margin-bottom: 50px;
+}
+
+.contact-middle button {
+   padding: 10px 92px;
+}
+
+

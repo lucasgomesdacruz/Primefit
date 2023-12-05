@@ -8,6 +8,11 @@ header {
     padding-bottom: 15px;
 }
 
+.container-lg-header img {
+    width: 50px;
+    margin-left: 7px;
+}
+
 .navbar-brand b {
     color: var(--color-background);
     font-family:  Arial, Helvetica, sans-serif;
