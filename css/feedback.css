@@ -1,0 +1,35 @@
+.feedback-bg {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: var(--color-main-secondary);
+    color: white;
+}
+
+.feedback-bg h2 {
+    font-size: 20px;
+    width: 400px;
+    margin-left: 20px;
+}
+.feedback-bg img {
+    width: 350px;
+    border-radius: 5px;
+}
+
+.feedback-bg i {
+    color: white;
+}
+
+.nota-depoimento i {
+    color: yellow;
+}
+
+.texto-depoimento i:first-child {
+    
+}
+
+.texto-depoimento i:last-child {
+    margin-left: 420px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}

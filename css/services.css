@@ -77,11 +77,6 @@
     min-width: 200px;
 }
 
-/* 
-.structures-card:hover {
-    transform: scale(1.05);
-} */
-
 .structures p {
     color: var(--color-main-secondary-1);
 }
@@ -99,14 +94,22 @@
     max-height: 38px;
     border-radius: 19px;
     background-color: var(--color-background);
-    transition: .45s ease-out;
+    transition: .3s ease-out;
     overflow: hidden;
     flex-wrap: wrap;
 }
 
+.structures-card {
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+
 .structures-icons:hover {
-    overflow: visible;
     max-height: 150px;
+}
+
+.structures-card:hover {
+    transform: scale(1.05);
 }
 
 .structures-icons li {
