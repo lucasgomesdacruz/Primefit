@@ -34,8 +34,8 @@
 }
 
 .card img {
-    width: 350px;
-    height: 500px;
+    max-width: 350px;
+    min-width: 200px;
 }
 
 .Tipo-de-treino {
@@ -75,6 +75,7 @@
 .structures-card, 
 .structures-card img {
     min-width: 200px;
+    max-width: 600px;
 }
 
 .structures p {
@@ -143,8 +144,7 @@
 }
 
 .container-banner-services {
-    padding-left: 0px;
-    padding-right: 0px;
+    padding: 0px 0px 0px 0px;
 }
 
 

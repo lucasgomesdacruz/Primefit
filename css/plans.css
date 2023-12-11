@@ -1,5 +1,5 @@
 .plans {
-    background-color: black;
+    background-color: var(--color-main);
 }
 
 .title-plans {
@@ -25,6 +25,8 @@
     cursor: pointer;
     padding: 50px !important;
     position: relative;
+    max-width: 400px; 
+    min-width: 250px;
 }
 
 .container-plans::before {

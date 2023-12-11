@@ -1,35 +1,50 @@
 .feedback-bg {
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding: 120px 0px 120px 0px;
     background-color: var(--color-main-secondary);
-    color: white;
+    color: var(--color-background);
 }
 
 .feedback-bg h2 {
     font-size: 20px;
-    width: 400px;
-    margin-left: 20px;
+    max-width: 600px;
+    margin: 10px 0px 10px 0px;
 }
+
 .feedback-bg img {
-    width: 350px;
+    min-width: 200px;
+    max-width: 350px;
     border-radius: 5px;
 }
 
 .feedback-bg i {
-    color: white;
+    color: var(--color-background);
 }
 
-.nota-depoimento i {
-    color: yellow;
+.texto-depoimento h2 {
+    width: 420px;
+    margin: 0px 0px 0px 30px;
 }
 
-.texto-depoimento i:first-child {
-    
+.texto-depoimento i {
+    color: var(--color-main-secondary-1);
+    font-size: 20px;
 }
 
 .texto-depoimento i:last-child {
-    margin-left: 420px;
-    display: flex;
-    justify-content: center;
-    align-items: end;
+    margin-left: 440px;
 }
+
+.container-cliente {
+    margin: 0px 0px 0px 30px;
+}
+
+.nota-depoimento i {
+    color: var(--color-background);
+}
+
+.next-banck {
+    cursor: pointer;
+    padding: 10px;
+    font-size: 30px;
+}
+
