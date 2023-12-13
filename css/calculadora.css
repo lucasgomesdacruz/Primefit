@@ -1,0 +1,50 @@
+.calculadora-bg {
+    background-color: var(--color-main-secondary);
+    color: white;
+    padding: 80px 0px 80px 0px;
+}
+
+.calculadora-container {
+    max-width: 500px;
+    gap: 20px;
+}
+
+.divAltura, .divPeso, .divCalc {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.calculadora-container input, .calculadora-container button {
+    padding: 10px;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+.calculadora-container button {
+    cursor: pointer;
+    background-color: #3d3d3d;
+    color: white;
+    margin-top: 10px;
+}
+
+.calculadora-container button:hover {
+    background-color: #989898;
+    transition: 0.3s ease-out;
+    color: black;
+}
+
+#resultado {
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+@media (max-width: 500px) {
+    .calculadora-container input, 
+    .calculadora-container button {
+        font-size: 15px;
+    }
+}

@@ -55,7 +55,7 @@
                     </div>
                 </div>
                 <div class="image col-10">
-                    <img src="./imgs/banner01.png" alt="">
+                    <img src="./imgs/banner/banner01.png" alt="">
                 </div>
         </div>
     </section>
@@ -107,7 +107,7 @@
             </div>
             <div class="container-services d-flex justify-content-center align-items-center">
                <div class="card">
-                    <img src="./imgs/musculacao3.jpg" alt="imagem de musculação">
+                    <img src="./imgs/servicos/musculacao3.jpg" alt="imagem de musculação">
                     <div class="Tipo-de-treino d-flex mt-2">
                         <p class="mr-3">Treinamento</p>
                         <p>Força</p>
@@ -115,7 +115,7 @@
                     <h5><b>Musculação</b></h5>
                 </div>
                 <div class="card">
-                    <img src="./imgs/ginastica3.png" alt="imagem de funcional">
+                    <img src="./imgs/servicos/ginastica3.png" alt="imagem de funcional">
                     <div class="Tipo-de-treino d-flex mt-2">
                         <p class="mr-3">Treinamento</p>
                         <p>Resistência</p>
@@ -123,7 +123,7 @@
                     <h5><b>Funcional</b></h5>
                 </div>
                 <div class="card">
-                    <img src="./imgs/funcional.png"  alt="imagem de persoal trainer">
+                    <img src="./imgs/servicos/funcional.png"  alt="imagem de persoal trainer">
                     <div class="Tipo-de-treino d-flex mt-2">
                         <p class="mr-3">Treinamento</p>
                         <p>Resistência</p>
@@ -248,18 +248,33 @@
                         </div> 
                     <i class="next-banck ml-5 fas fa-chevron-right"></i>
                 </div>
-            
         </div>
-
     </section>
+    <section class="calculadora-bg container-lg">
+        <div class="calculadora-container container d-flex justify-content-center align-items-center flex-column">
+            <h2>Cálcule seu IMC</h2>
+            <div class="divAltura">
+                <label for="altura">Altura (M)</label>
+                <input type="number" id="altura" />
+            </div>
+            <div class="divPeso">
+                <label for="peso">Peso (KG)</label>
+                <input type="number" id="peso" />
+            </div>
 
-    <section id="plans" class="plans container-lg" style="width: 100%; height: 888px; background-image: url(./imgs/banne2.png); background-size: cover; background-repeat: no-repeat; background-position: center;">
+            <div class="divCalc">
+                <button onclick="calcIMC()">Calcular</button>
+            </div>
+            <span id="resultado"></span>
+        </div>
+    </section>
+    <section id="plans" class="plans container-lg" style="width: 100%; height: 888px; background-image: url(./imgs/cards-plans/banne2.png); background-size: cover; background-repeat: no-repeat; background-position: center;">
         <div class="title-plans container d-flex flex-column">
             <h2><b>Nossos Planos</b></h2>
             <p>Nossos Serviços Personalizados para Seu Sucesso Fitness.</p>
         </div>
        <div class="container-plans-bg d-flex justify-content-center mx-auto">
-            <div class="card-plans" style="background-image: url(./imgs/price5.jfif); background-size: cover;">
+            <div class="card-plans" style="background-image: url(./imgs/cards-plans/price5.jfif); background-size: cover;">
                 <div class="container-plans">
                     <div>
                         <h4>Plano Básico</h4>
@@ -293,7 +308,7 @@
                 </div>
             </div>
 
-            <div class="card-plans" style="background-image: url(./imgs/price-2.jpg); background-size: cover;">
+            <div class="card-plans" style="background-image: url(./imgs/cards-plans/price-2.jpg); background-size: cover;">
                 <div class="container-plans">
                     <div>
                         <h4>Plano Padrão</h4>
@@ -327,7 +342,7 @@
                 </div>
             </div>
 
-            <div class="card-plans p-5" style="background-image: url(./imgs/price4.jpg); background-size: cover;">
+            <div class="card-plans p-5" style="background-image: url(./imgs/cards-plans/price4.jpg); background-size: cover;">
                 <div class="container-plans">
                     <div>
                         <h4>Plano Final</h4>
