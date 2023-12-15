@@ -37,7 +37,7 @@ function prevSlider() {
 btnNext.addEventListener('click', nextSlider);
 btnPrev.addEventListener('click', prevSlider);
 
-// Exibindo o primeiro slider inicialmente
+
 showCurrentSlide();
 
 

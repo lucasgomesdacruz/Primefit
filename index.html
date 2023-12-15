@@ -22,16 +22,11 @@
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
                     <ul class="navbar-nav">
                         <li><a href="./index.html" class="nav-link">Home</a></li>
-                        <li><a href="#services" class="nav-link">Serviços</a></li>
+                        <li><a href="#services" class="nav-link">Sobre</a></li>
                         <li><a href="#plans" class="nav-link">Planos</a></li>
                         <li><a href="#contact" class="nav-link">Contato</a></li>
                         <li><a href="#contact" class="nav-link">Blog</a></li>
                     </ul>
-                 <!--  <a class="btn btn-white btn-icon ml-5">
-                        <span class="icon">
-                            <i class="fa fa-shopping-bag"></i>
-                        </span>
-                    </a> --> 
                 </div>
             </nav>
         </div>
@@ -218,11 +213,11 @@
     </section>
     <section class="feedback-bg container-lg">
 
-        <div class="d-flex justify-content-center align-items-center mx-auto mb-5">
-            <h2>A Opinião dos Campeões: Feedback Direto dos Nossos Alunos sobre a Experiência na Academia! <i class="far fa-comment ml-1"></i></h2>
+        <div class="feedback-title d-flex justify-content-center align-items-center mx-auto mb-5">
+            <h2><b>Feedback dos Nossos Alunos!</b></h2>
         </div>
 
-        <div class="container d-flex justify-content-center align-items-center">
+        <div class="container-lg d-flex justify-content-center align-items-center">
             <div id="voltar">
                 <i class="next-banck mr-5 fas fa-chevron-left" id="prev-button"></i>
             </div>
@@ -234,7 +229,7 @@
                         <div class="texto-depoimento">
                             <i class="fas fa-quote-left"></i>
                                 <h2>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, quo. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam, dignissimos.
+                                    Adoro a academia! Equipamentos top e instrutores super atenciosos. Recomendo de olhos fechados!
                                 </h2>
                             <i class="fas fa-quote-right"></i>
                         </div>
@@ -258,7 +253,7 @@
                         <div class="texto-depoimento">
                             <i class="fas fa-quote-left"></i>
                                 <h2>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, quo. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam, dignissimos.
+                                    Aulas incríveis! Variedade nota 10 e ambiente sempre positivo. Aqui é minha segunda casa!
                                 </h2>
                             <i class="fas fa-quote-right"></i>
                         </div>
@@ -269,7 +264,7 @@
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
-                                <i class="fas fa-star-half-alt"></i>&nbsp;<span>4.5</span>
+                                <i class="fas fa-star"></i>&nbsp;<span>5.0</span>
                             </p>
                         </div>
                     </div>
@@ -282,7 +277,7 @@
                         <div class="texto-depoimento">
                             <i class="fas fa-quote-left"></i>
                                 <h2>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, quo. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam, dignissimos.
+                                    Atendimento impecável! Recepcionistas sempre sorridentes e espaço sempre limpo. Malhar aqui é um prazer diário!
                                 </h2>
                             <i class="fas fa-quote-right"></i>
                         </div>
@@ -293,7 +288,7 @@
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
-                                <i class="fas fa-star-half-alt"></i>&nbsp;<span>4.5</span>
+                                <i class="fas fa-star"></i>&nbsp;<span>5.0</span>
                             </p>
                         </div>
                     </div>
@@ -303,22 +298,26 @@
             </div>
         </div>
     </section>
-    <section class="calculadora-bg container-lg">
-        <div class="calculadora-container container d-flex justify-content-center align-items-center flex-column">
-            <h2>Cálcule seu IMC</h2>
-            <div class="divAltura">
-                <label for="altura">Altura (M)</label>
-                <input type="number" id="altura" />
+    <section class="calculadora-bg container-lg d-flex">
+        <div class="d-flex justify-content-center align-items-center mx-auto">
+            <div class="calculadora-contaitaner-img">
+                <i class="fas fa-dumbbell"></i>
             </div>
-            <div class="divPeso">
-                <label for="peso">Peso (KG)</label>
-                <input type="number" id="peso" />
+            <div class="calculadora-container container d-flex justify-content-center flex-column">
+                <h2>Cálcule seu IMC</h2>
+                <div class="divAltura">
+                    <label for="altura">Altura (M)</label>
+                    <input type="number" id="altura" />
+                </div>
+                <div class="divPeso">
+                    <label for="peso">Peso (KG)</label>
+                    <input type="number" id="peso" />
+                </div>
+                <div class="divCalc">
+                    <button onclick="calcIMC()"><b>Calcular</b></button>
+                </div>
+                <span id="resultado"></span>
             </div>
-
-            <div class="divCalc">
-                <button onclick="calcIMC()">Calcular</button>
-            </div>
-            <span id="resultado"></span>
         </div>
     </section>
     <section id="plans" class="plans container-lg" style="width: 100%; height: 888px; background-image: url(./imgs/cards-plans/banne2.png); background-size: cover; background-repeat: no-repeat; background-position: center;">
