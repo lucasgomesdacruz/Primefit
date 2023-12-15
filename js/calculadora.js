@@ -23,8 +23,10 @@ const calcIMC = () => {
     }
     
     resultado.innerHTML = `IMC: ${imc} (${classification})`
+    resultado.style.color = "green"
   } else {
     resultado.innerHTML = 'Preencha os campos'
+    resultado.style.color = "red"
   }
   
   altura.value = ""

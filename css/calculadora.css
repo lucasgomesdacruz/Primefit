@@ -1,6 +1,6 @@
 .calculadora-bg {
     background-color: var(--color-main-secondary);
-    color: white;
+    color: var(--color-background);
     padding: 80px 0px 80px 0px;
 }
 
@@ -16,7 +16,8 @@
     gap: 10px;
 }
 
-.calculadora-container input, .calculadora-container button {
+.calculadora-container input, 
+.calculadora-container button {
     padding: 10px;
     font-size: 20px;
     outline: none;
@@ -26,20 +27,26 @@
 
 .calculadora-container button {
     cursor: pointer;
-    background-color: #3d3d3d;
-    color: white;
+    background-color: var(--color-main-secondary-1);
+    color: var(--color-background);
     margin-top: 10px;
 }
 
 .calculadora-container button:hover {
-    background-color: #989898;
+    background-color: var(--color-details-secondary);
     transition: 0.3s ease-out;
-    color: black;
+    color: var(--color-main);
 }
 
 #resultado {
+    width: 500px;
+    text-align: center;
     font-size: 25px;
     margin-top: 10px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    
 }
 
 @media (max-width: 500px) {
