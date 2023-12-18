@@ -40,7 +40,6 @@ const calcIMC = () => {
     peso.style.border = '3px solid red'
     resultado.innerHTML = `Preencha os campos corretamente`
     resultado.style.color = "red"
-    
   }
   
   altura.value = ""

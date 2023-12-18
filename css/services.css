@@ -90,6 +90,16 @@
     padding: 1.25rem 1.25rem 1.25rem 0rem;
 }
 
+.structures-card {
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.structures-card:hover {
+    transform: scale(1.05);
+}
+
+
 .structures-icons {
     width: 38px;
     max-height: 38px;
@@ -100,17 +110,10 @@
     flex-wrap: wrap;
 }
 
-.structures-card {
-    transition: transform 0.3s ease-in-out;
-    cursor: pointer;
-}
 
-.structures-icons:hover {
+/* Adcionar classe na ul através do Js*/
+.structures-icons-active {
     max-height: 150px;
-}
-
-.structures-card:hover {
-    transform: scale(1.05);
 }
 
 .structures-icons li {
