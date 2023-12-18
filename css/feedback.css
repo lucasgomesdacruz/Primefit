@@ -51,17 +51,15 @@
 
 .next-banck {
     cursor: pointer;
-    padding: 10px;
+    padding: 10px;              
     font-size: 40px;
     transition: transform 0.9s ease-in-out;
-
 }
 
 .next-banck:hover {
     transform: scale(1.20);
 }
 
- 
 .slider {
     display: none;
 }
