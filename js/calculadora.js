@@ -32,6 +32,8 @@ const calcIMC = () => {
       classification = 'Obesidade Grau III'
     }
 
+    altura.style.border = ''
+    peso.style.border = ''
     resultado.style.color = "green"
     imc = imc.replace(/[.-]/g, ',');
     resultado.innerHTML = `IMC: ${imc} (${classification})`
