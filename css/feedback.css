@@ -43,6 +43,7 @@
     color: var(--color-main-secondary-1);
     font-weight: bolder;
     font-size: 20px;
+    text-transform: uppercase;
 }
 
 .nota-depoimento i {
