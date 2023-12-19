@@ -2,7 +2,6 @@ const resultado = document.querySelector('#resultado')
 const altura = document.querySelector('#altura')
 const peso = document.querySelector('#peso')
 
-
 function validarInput(input) {
   let valor = input.value;
   
@@ -34,7 +33,7 @@ const calcIMC = () => {
 
     altura.style.border = ''
     peso.style.border = ''
-    resultado.style.color = "green"
+    resultado.style.color = 'green'
     imc = imc.replace(/[.-]/g, ',');
     resultado.innerHTML = `IMC: ${imc} (${classification})`
   } else {
@@ -46,7 +45,12 @@ const calcIMC = () => {
   
   altura.value = ""
   peso.value = ""
-}
 
+  setTimeout(() => {
+    altura.style.border = ''
+    peso.style.border = ''
+    resultado.innerHTML = ''
+  }, 7000);
+}
 
 

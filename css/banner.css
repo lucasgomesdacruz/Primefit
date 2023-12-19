@@ -11,22 +11,28 @@
     top: 0px;
     right: 0px;
     bottom: 0px;
-    background-color: rgba(3, 3, 3, 0.308);
+    background-color: rgba(3, 3, 3, 0.678);
     z-index: 1;
 }
 
 .image img{
     width: 1300px;
-    position: relative;
+}
+
+.slider-img {
+    display: none;
+}
+
+.slider-img-on {
+    display: flex;
 }
 
 .text-banner {
-    flex-direction: column;
     margin-top: 250px;
     width: 650px;
     height: auto;
     position: absolute;
-    z-index: 7; 
+    z-index: 9; 
 }
 
 .text-banner h1 {
@@ -37,6 +43,7 @@
 }
 
 .text-banner p {
+    margin-bottom: 30px;
     color: var(--color-background);
     font-size: 18px;
 }
