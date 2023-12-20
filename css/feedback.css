@@ -61,6 +61,19 @@
     transform: scale(1.20);
 }
 
+.number-coment p {
+    width: 30px;
+    height: 30px;
+    background-color: var(--color-main-secondary);
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    margin-left: 50px;
+}
+
 .slider {
     display: none;
 }
