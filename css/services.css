@@ -3,18 +3,19 @@
 }
 
 .services-text {
-    max-width: 600px;
+    max-width: 800px;
     text-align: center;
     padding: 0px 0px 80px 0px;
 }
 
 .services-text h2 {
     color: var(--color-background);
-    font-size: 3rem;
+    font-size: 62px;
 }
 
 .services-text p {
     color: var(--color-details-secondary);
+    font-size: 24px;
 }
 
 .container-services {
@@ -37,31 +38,24 @@
     max-width: 350px;
 }
 
-.Tipo-de-treino {
-    color: var(--color-background);
-}
-
 .card h5 {
     color: var(--color-background);
 }
 
-.banner-g {
-    padding-top: 80px;
-    overflow-x: hidden;
-}
-
 .structures-text {
+    width: 900px;
     margin: 100px 0px 0px 0px;
 }
 
 .structures-text h2 {
     color: var(--color-background);
-    font-size: 2.5rem;
+    font-size: 42px;
     text-transform: uppercase;
 }
 
 .structures-text p {
     color: var(--color-details-secondary);
+    font-size: 24px;
 }
 
 .structures-container {
@@ -146,10 +140,6 @@
     background-color: var(--color-main-secondary-1);
 }
 
-.container-banner-services {
-    padding: 0px 0px 0px 0px;
-}
-
 .scrollTop {
     background-color: var(-color-background-secondary);
     border: none;
@@ -171,6 +161,17 @@
 .scrollTop.showBtn {
     opacity: 1;
     transform: translate(0);
+}
+
+/* Modelos */
+
+.banner-g {
+    padding-top: 80px 0px !important;
+    overflow-x: hidden;
+}
+
+.banner-g div {
+    padding: 0px;
 }
 
 

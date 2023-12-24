@@ -5,13 +5,12 @@
 }
 
 .feedback-title h2 {
-    font-size: 40px;
+    font-size: 42px;
     margin: 40px 0px 60px 0px;
     text-transform: uppercase;
 }
 
 .feedback-bg img {
-    min-width: 200px;
     max-width: 350px;
     border-radius: 5px;
 }
@@ -20,7 +19,7 @@
     color: var(--color-background);
 }
 
-.texto-depoimento h2 {
+.texto-depoimento h3 {
     max-width: 420px;
     margin: 0px 0px 0px 30px;
     font-size: 20px;
