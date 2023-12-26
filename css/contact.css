@@ -6,6 +6,7 @@
 
 .contact-title {
     padding: 80px 0px 160px 0px;
+    gap: 450px;
 }
 
 .contact-title h2 {
@@ -26,6 +27,7 @@
 
 .contact-info {
     position: relative;
+    gap: 100px;
 }
 
 .barra {
@@ -38,33 +40,50 @@
     background-color: var(--color-main-secondary-1);
 }
 
+.contact-middle {
+    gap: 10px;
+}
 
 .contact-middle p {
     font-size: 12px;
     color: var(--color-details-secondary);
-    
+    text-transform: uppercase; 
 }
 
-.contact-local p {
-    font-size: 12px;
-    color: var(--color-details-secondary);
+.contact-middle h5 {
+    margin-bottom: 15px
 }
 
-.contact-local h2 {
-    font-size: 25px;
+.contact-middle h2 {
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
-.contact-local h3 {
-    color: var(--color-details-secondary);
-    font-size: 20px;
+.contact-middle button {
+    padding: 10px 92px;
 }
 
 .contact-local-containers {
     margin-bottom: 50px;
 }
 
-.contact-middle button {
-   padding: 10px 92px;
+.contact-local-containers p {
+    font-size: 12px;
+    color: var(--color-details-secondary);
+    text-transform: uppercase;
 }
+
+.contact-local-cotnainers h2 {
+    font-size: 20px;
+}
+
+.contact-local-containers h3 {
+    color: var(--color-details-secondary);
+    font-size: 20px;
+}
+
+
+
+
 
 

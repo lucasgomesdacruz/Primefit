@@ -1,4 +1,61 @@
 .footer-bg {
     background-color: var(--color-main);
-    height: 100px;
+    padding: 20px;
 }
+
+.copyrught {
+    color: var(--color-main-secondary-1);
+}
+
+.footer-redes-sociais {
+    gap: 20px;
+    color: var(--color-background);
+}
+
+.footer-redes-sociais i {
+    font-size: 16px;
+}
+
+.footer-redes-sociais ul {
+    gap: 20px;
+}
+
+.footer-redes-sociais li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: var(--color-main-secondary-1);
+    transition: all 0.3s ease;
+}
+.footer-redes-sociais li:hover {
+    margin: 5px;
+    cursor: pointer;
+    background-color: var(--color-main-secondary);
+}
+
+.footer-bg p, 
+.footer-bg ul {
+    margin: 0px;
+}
+
+.footer-termos {
+    gap: 10px;
+}
+
+.footer-termos p {
+    color: var(--color-main-secondary-1);
+    cursor: pointer;
+    margin: 5px;
+    transition: all 0.3s ease;
+}
+
+.footer-termos p:hover {
+    color: var(--color-background);
+}
+
+

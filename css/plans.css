@@ -93,6 +93,7 @@
     padding: 10px 20px;
     position: relative;
     color: var(--color-background);
+    transition: all 0.3s ease;
 }
 
 .card-footer button:hover {

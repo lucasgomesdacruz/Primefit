@@ -46,4 +46,15 @@ document.addEventListener("scroll", handleScroll)
 scrollToButton.addEventListener("click", scrolltoTop);
 
 
+var hoje = new Date();
+
+var dia = hoje.getDate();
+var mes = hoje.getMonth() + 1; 
+
+if (dia === 25 && mes === 12) {
+    console.log("Merry Christmas!");
+} else {
+    console.log("Today is not Christmas.");
+}
+
 
