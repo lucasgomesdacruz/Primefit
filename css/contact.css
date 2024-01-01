@@ -6,7 +6,6 @@
 
 .contact-title {
     padding: 80px 0px 160px 0px;
-    gap: 450px;
 }
 
 .contact-title h2 {
@@ -50,8 +49,9 @@
     text-transform: uppercase; 
 }
 
-.contact-middle h5 {
-    margin-bottom: 15px
+.contact-middle a {
+    color: var(--color-background);
+    text-decoration: none;
 }
 
 .contact-middle h2 {
