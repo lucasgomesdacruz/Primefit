@@ -52,6 +52,11 @@
 .contact-middle a {
     color: var(--color-background);
     text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.contact-middle a:hover {
+    color: var(--color-main-secondary-1);
 }
 
 .contact-middle h2 {

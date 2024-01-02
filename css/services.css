@@ -140,29 +140,6 @@
     background-color: var(--color-main-secondary-1);
 }
 
-.scrollTop {
-    background-color: var(-color-background-secondary);
-    border: none;
-    border-radius: 50%;
-    color: var(--color-main);
-    cursor: pointer;
-    width: 65px;
-    height: 65px;
-    position: fixed;
-    bottom: 20px;
-    right: 40px;
-    z-index: 10;
-    opacity: 0;
-    transform: translateY(100px);
-    transition: all 0.5s ease;
-    font-size: 30px;
-}
-
-.scrollTop.showBtn {
-    opacity: 1;
-    transform: translate(0);
-}
-
 /* Modelos */
 
 .banner-g {

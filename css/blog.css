@@ -1,0 +1,32 @@
+.blog-bg {
+    background-color: var(--color-main);
+}
+
+.blog-introducao {
+    max-width: 650px;
+    margin: 20px 0px 20px 0px;
+}
+
+.blog {
+    max-width: 650px;
+}
+
+.blog h2 {
+    font-weight: bold;
+    color: var(--color-background);
+}
+
+.blog img {
+    border-radius: 4px;
+    margin: 8px 0;
+}
+
+.blog p {
+    color: var(--color-main-secondary-1);
+    line-height: 30px;
+    font-size: 20px;
+}
+
+.blog li {
+    margin-bottom: 24px;
+}
