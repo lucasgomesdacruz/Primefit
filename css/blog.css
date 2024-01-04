@@ -45,3 +45,12 @@
 .blog li {
     margin-bottom: 24px;
 }
+
+.carregando { /* texto Js caso a api demore a carregar */
+    color: red;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}

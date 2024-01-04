@@ -1,5 +1,6 @@
 let listElement = document.querySelector("#app");
-let loadingElement = document.createElement("p");
+let loadingElement = document.createElement("h3"); // texto caso a Api demore a carregar
+loadingElement.classList.add("carregando");
 loadingElement.textContent = "Carregando..."; // Texto exibido enquanto carrega
 listElement.appendChild(loadingElement);
 
@@ -37,5 +38,4 @@ function nutriApp() {
             console.log("Deu alguma coisa");
         });
 }
-
 nutriApp();
