@@ -38,6 +38,10 @@
     max-width: 350px;
 }
 
+.card p {
+    color: var(--color-details-secondary);
+}
+
 .card h5 {
     color: var(--color-background);
 }

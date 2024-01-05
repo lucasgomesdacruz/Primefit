@@ -39,7 +39,7 @@
 }
 
 .container-cliente p {
-    color: var(--color-main-secondary-1);
+    color: var(--color-details-secondary);
     font-weight: bolder;
     font-size: 20px;
     text-transform: uppercase;
