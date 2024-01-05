@@ -5,7 +5,7 @@
 
 .copyright p, 
 .copyright a {
-    color: var(--color-main-secondary-1);
+    color: var(--color-details-secondary);
     
 }
 
@@ -55,7 +55,7 @@
 }
 
 .footer-termos p {
-    color: var(--color-main-secondary-1);
+    color: var(--color-details-secondary);
     cursor: pointer;
     margin: 5px;
     transition: all 0.3s ease;
