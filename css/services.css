@@ -72,7 +72,7 @@
 }
 
 .structures p {
-    color: var(--color-main-secondary-1);
+    color: var(--color-details-secondary);
     text-transform: uppercase;
 }
 
