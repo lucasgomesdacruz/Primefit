@@ -40,7 +40,7 @@
     background-color: rgba(34,34,34,0.85);
 }
 
-.container-plans h4 {
+.container-plans h3 {
     color: var(--color-background);
     font-size: 24px;
     font-weight: bolder;

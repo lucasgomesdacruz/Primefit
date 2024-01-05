@@ -42,7 +42,7 @@
     color: var(--color-details-secondary);
 }
 
-.card h5 {
+.card h3 {
     color: var(--color-background);
 }
 
