@@ -102,5 +102,16 @@
 } 
 
 
+/* responsivo */
 
+@media (max-width: 500px) {
+    .plans {
+        background-image: url(../imgs/banner/banner02.webp);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: end;
+        height: 100% !important;
+        width: 100%;
+    }
+}
 

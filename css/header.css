@@ -36,7 +36,19 @@ header {
     padding-top: 10px;
 }
 
+/* responsivo */
 
+@media (max-width: 900px) {
+    .navbar-toggler-icon {
+        color: white;
+    }
+
+    .navbar-toggler {
+        display: flex;
+        align-items: center;
+        justify-content: ;
+    }
+}
 
 
 
