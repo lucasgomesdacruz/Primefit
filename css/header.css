@@ -38,15 +38,16 @@ header {
 
 /* responsivo */
 
-@media (max-width: 900px) {
+@media (max-width: 450px) {
     .navbar-toggler-icon {
         color: white;
     }
 
-    .navbar-toggler {
-        display: flex;
-        align-items: center;
-        justify-content: ;
+    .navbar-brand h1 {
+        font-size: 30px;
+    }
+    .container-lg-header img {
+        max-width: 30px;
     }
 }
 
