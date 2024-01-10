@@ -37,12 +37,20 @@ header {
 }
 
 /* responsivo */
-
-@media (max-width: 450px) {
+@media (max-width: 900px) {
     .navbar-toggler-icon {
         color: white;
     }
 
+    .navbar-brand h1 {
+        font-size: 35px;
+    }
+    .container-lg-header img {
+        max-width: 35px;
+    }
+}
+
+@media (max-width: 450px) {
     .navbar-brand h1 {
         font-size: 30px;
     }
