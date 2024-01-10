@@ -47,3 +47,36 @@
     display: flex;
 }
 
+@media (max-width: 550px) {
+    .banner {
+        max-height: 100%;
+    }
+    .text-banner {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        position: relative;
+    }
+    .text-banner h1 {
+        font-size: 32px;
+        line-height: 42px;
+    }
+    
+    .text-banner p {
+        margin-bottom: 20px;
+        color: var(--color-background);
+        font-size: 18px;
+    }
+
+    .image img {
+        width: 100%;
+    }
+
+    /* 
+    .image img {
+        max-width: 100%;
+        margin-top: 50px;
+        margin-bottom: 100px;
+     } */
+     
+    
+}
