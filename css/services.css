@@ -86,7 +86,7 @@
 }
 
 .structures, .card-body {
-    padding: 1.25rem 1.25rem 1.25rem 0rem;
+    padding: 20px 20px 20px 0px;
 }
 
 .structures-card {
@@ -98,7 +98,6 @@
     transform: scale(1.05);
 }
 
-
 .structures-icons {
     width: 38px;
     max-height: 38px;
@@ -108,7 +107,6 @@
     overflow: hidden;
     flex-wrap: wrap;
 }
-
 
 /* Adiciona classe na ul através do Js*/
 .structures-icons-active {
@@ -177,7 +175,107 @@
         max-width: 250px;
     }
     
+    .structures-text {
+        max-width: 100vw;
+        margin: 50px 0px 0px 0px;
+    }
     
+    .structures-text h2 {
+        font-size: 32px;
+    }
+    
+    .structures-text p {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    /*///////*/
+
+
+
+
+
+
+    .structures-container {
+        gap: 20px;
+    }
+    
+    .structures {
+        margin: 100px 0px 100px 0px;
+    }
+    
+    .structures-card, 
+    .structures-card img {
+        max-width: 600px;
+    }
+    
+    .structures p {
+        color: var(--color-details-secondary);
+        text-transform: uppercase;
+    }
+    
+    .structures h3 {
+        color: var(--color-background);
+        font-size: 20px;
+    }
+    
+    .structures, .card-body {
+        padding: 20px 20px 20px 0px;
+    }
+    
+    .structures-card {
+        transition: transform 0.3s ease-in-out;
+        cursor: pointer;
+    }
+    
+    .structures-card:hover {
+        transform: scale(1.05);
+    }
+    
+    .structures-icons {
+        width: 38px;
+        max-height: 38px;
+        border-radius: 19px;
+        background-color: var(--color-background);
+        transition: .3s ease-out;
+        overflow: hidden;
+        flex-wrap: wrap;
+    }
+
+    /* Adiciona classe na ul através do Js*/
+    .structures-icons-active {
+        max-height: 150px;
+    }
+
+    .structures-icons li {
+        height: 38px;
+        width: 38px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: var(--color-main);
+        font-size: 14px;
+    }
+
+    .structures-icons {
+        position: absolute;
+        top: 30px;
+        right: 30px;
+    }
+
+    .structures-card {
+        position: relative;
+    }
+
+    .structures-effect {
+        content: '';
+        position: absolute;
+        bottom: -5px;
+        right: 0px;
+        height: 2px;
+        width: 100%;
+        background-color: var(--color-main-secondary-1);
+    }
 }
 
 

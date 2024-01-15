@@ -83,4 +83,66 @@
     align-items: center;
 } 
 
+@media (max-width: 450px) {
+
+    .container-cometario {
+        max-width: 210px;
+    }
+    .feedback-title h2 {
+        font-size: 32px;
+        margin: 0px 5px 0px 5px;
+        text-align: center;
+    }
+
+    .feedback-bg img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+    }
+
+    .texto-depoimento h3 {
+        max-width: 200px;
+        line-height: 30px;
+        margin: 0px 0px 0px 30px;
+        font-size: 20px;
+    }
+
+    .texto-depoimento i:last-child {
+        margin-left: 100%;
+    }
+
+    .container-cliente {
+        margin: 30px 0px 0px 0px;
+    }
+    
+    .container-cliente p {
+        color: var(--color-details-secondary);
+        font-weight: bolder;
+        font-size: 20px;
+        text-transform: uppercase;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .next-banck {
+        padding: 10px;              
+        font-size: 20px;
+        margin: 5px;
+    }
+
+    .number-coment p {
+        width: 20px;
+        height: 20px;
+        background-color: var(--color-main-secondary);
+        color: white;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 12px;
+        margin-left: 10px;
+    }
+    
+}
 
