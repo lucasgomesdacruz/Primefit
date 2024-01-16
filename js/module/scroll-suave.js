@@ -1,3 +1,4 @@
+
 export default function scrollSuave() {
     const linksInternos = document.querySelectorAll('.js-menu a[href^="#"]');
 
@@ -16,5 +17,7 @@ export default function scrollSuave() {
     linksInternos.forEach((link) => {
         link.addEventListener('click', scrollToSection)
     })
+
+    
 }
 
