@@ -15,7 +15,6 @@
 }
 
 .footer-redes-sociais {
-    gap: 20px;
     color: var(--color-background);
 }
 
@@ -65,4 +64,28 @@
     color: var(--color-background);
 }
 
+@media (max-width: 450px) {
+    .copyright p, 
+    .copyright a {
+        margin: 0px 0px 10px 0px;
+    }
+
+    .footer-redes-sociais i {
+        font-size: 16px;
+    }
+    
+    .footer-redes-sociais ul {
+        gap: 10px;
+        margin: 0px 0px 10px 0px;
+    }
+
+    .footer-termos {
+        gap: 10px;
+    }
+
+    .footer-termos p {
+        text-align: center;
+    }
+
+}
 
