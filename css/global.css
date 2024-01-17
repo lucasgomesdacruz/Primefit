@@ -26,11 +26,11 @@
     padding: 0px;
     box-sizing: border-box;
     font-family: 'PoppinsRegular', 'Rubik', sans-serif;
-    
 }
 
 body {
     background-color: var(--color-main);
+    overflow-x: hidden;
 }
 
 b {
