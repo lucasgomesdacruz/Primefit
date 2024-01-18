@@ -113,6 +113,21 @@
         -webkit-box-orient: vertical; 
         overflow-y: auto;
         text-overflow: ellipsis;
+        
+    }
+    .texto-depoimento h3::-webkit-scrollbar-button {
+        background: white;
+        
+    }
+    
+    .texto-depoimento h3::-webkit-scrollbar-thumb {
+        background: white;
+        
+    }
+    
+    .texto-depoimento h3::-webkit-scrollbar {
+        height: 12px;
+        background-color: transparent; 
     }
 
     .texto-depoimento i:last-child {
