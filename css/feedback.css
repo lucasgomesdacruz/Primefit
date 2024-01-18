@@ -114,19 +114,20 @@
         overflow-y: auto;
         text-overflow: ellipsis;
     }
-    .texto-depoimento::-webkit-scrollbar-button {
+    .texto-depoimento h3::-webkit-scrollbar-button {
         background: white;
-        
     }
     
-    .texto-depoimento::-webkit-scrollbar-thumb {
+    .texto-depoimento h3::-webkit-scrollbar-thumb {
         background: white;
-        
+        border-radius: 5px;
     }
     
-    .texto-depoimento::-webkit-scrollbar {
-        height: 12px;
-        background-color: transparent; 
+    .texto-depoimento h3::-webkit-scrollbar {
+        width: 4px;
+        height: 2px;
+        background-color: #2e2e2e; 
+        border: 1px solid white;
     }
 
     .texto-depoimento i:last-child {
