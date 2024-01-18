@@ -79,7 +79,7 @@
      } */
 }
 
-@media (max-width: 550px) {
+@media (max-width: 450px) {
     .banner {
         max-height: 100%;
     }

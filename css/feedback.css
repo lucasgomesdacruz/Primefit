@@ -84,28 +84,35 @@
 } 
 
 @media (max-width: 450px) {
-
     .container-cometario {
         max-width: 210px;
     }
+
     .feedback-title h2 {
-        font-size: 32px;
+        font-size: 28px;
         margin: 0px 5px 0px 5px;
         text-align: center;
+       
     }
 
     .feedback-bg img {
-        width: 150px;
-        height: 150px;
+        width: 180px;
+        height: 180px;
         object-fit: cover;
         border-radius: 50%;
+        margin: 0px 0px 30px 0px;
     }
 
     .texto-depoimento h3 {
-        max-width: 200px;
+        width: 190px;
+        height: 180px;
         line-height: 30px;
         margin: 0px 0px 0px 30px;
         font-size: 20px;
+        display: -webkit-box;
+        -webkit-box-orient: vertical; 
+        overflow-y: auto;
+        text-overflow: ellipsis;
     }
 
     .texto-depoimento i:last-child {
