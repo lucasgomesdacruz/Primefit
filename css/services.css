@@ -171,7 +171,6 @@
 
     .container-services {
         gap: 40px;
-        
     }
    
     .structures-text {
@@ -194,12 +193,17 @@
     }
     
     .structures {
-        margin: 10px 0px 10px 0px;
+        margin: 5px 0px 5px 0px;
     }
     
-    .structures-card, 
+    .structures-card {
+        max-width: 600px;
+        margin: 0px 0px 20px 0px;
+    }
+    
     .structures-card img {
         max-width: 600px;
+        margin: 0px 0px 10px 0px;
     }
     
     .structures p {
@@ -212,8 +216,12 @@
         font-size: 20px;
     }
     
-    .structures, .card-body {
+    .structures {
         padding: 20px 20px 20px 20px;
+    }
+
+    .card-body {
+        padding: 0px !important;
     }
     
 
@@ -261,10 +269,7 @@
         width: 100%;
         background-color: var(--color-main-secondary-1);
     }
-
-
-    
-    
+     
 }
 
 

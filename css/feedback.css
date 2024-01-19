@@ -84,6 +84,9 @@
 } 
 
 @media (max-width: 450px) {
+    .feedback-bg {
+        padding: 50px 0px 50px 0px;
+    }
     .container-cometario {
         max-width: 210px;
     }
