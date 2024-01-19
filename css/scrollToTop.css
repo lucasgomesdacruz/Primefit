@@ -24,8 +24,8 @@
 
 @media (max-width: 450px) {
     .scrollTop {
-        width: 45px;
-        height: 45px;
+        width: 55px;
+        height: 55px;
         bottom: 15px;
         right: 20px;
         z-index: 10;

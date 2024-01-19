@@ -26,16 +26,6 @@ header {
     color: var(--color-background) !important;
 }
 
-
-.btn-icon .icon{
-    display: inline-block;
-    color: var(--color-background);
-    position: absolute;
-    right: 70px;
-    margin-top: -20px;
-    padding-top: 10px;
-}
-
 /* responsivo */
 @media (max-width: 900px) {
     .navbar-toggler-icon {
@@ -45,18 +35,24 @@ header {
     .navbar-brand h1 {
         font-size: 35px;
     }
+
     .container-lg-header img {
         max-width: 35px;
     }
 }
-
 @media (max-width: 450px) {
     .navbar-brand h1 {
         font-size: 30px;
     }
+
     .container-lg-header img {
         max-width: 30px;
     }
+
+    .navbar-nav {
+        gap: 5px;
+    }
+    
 }
 
 
