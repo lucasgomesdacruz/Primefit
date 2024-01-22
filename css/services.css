@@ -155,10 +155,6 @@
 }
 
 @media (max-width: 900px) {
-    .numbers-animation-container {
-        margin: 0px 100px 0px 100px;
-    }
-
     .services-text h2 {
         font-size: 52px;
     }
@@ -212,9 +208,6 @@
 }
 
 @media (max-width: 450px) {
-    .numbers-animation-container {
-        margin: 0px 0px 0px 0px;
-    }
     .services-text {
         text-align: center;
         padding: 0px 0px 20px 0px;
