@@ -272,6 +272,10 @@
     .structures h3 {
         font-size: 20px;
     }
+
+    .structures p {
+        font-size: 16px;
+    }
     
     .card-body {
         padding: 0px !important;
