@@ -47,7 +47,7 @@
 }
 
 .structures-text {
-    width: 900px;
+    max-width: 900px;
     margin: 100px 0px 0px 0px;
 }
 

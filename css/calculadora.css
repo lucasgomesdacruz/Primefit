@@ -62,6 +62,17 @@
     letter-spacing: 3px;
 }
 
+@media (max-width: 900px) {
+    .calculadora-bg {
+        padding: 40px 0px 40px 0px;
+    }
+
+    .calculadora-contaitaner-img i {
+        margin: 10px;
+    }
+    
+}
+
 @media (max-width: 450px) {
     .calculadora-container input, 
     .calculadora-container button {
