@@ -72,8 +72,8 @@
 
 .structures-card, 
 .structures-card img {
-    min-width: 250px;
-    max-width: 300px;
+    min-width: 200px;
+    max-width: 450px;
 }
 
 .structures p {
@@ -87,7 +87,7 @@
 }
 
 .structures, .card-body {
-    padding: 20px 20px 20px 0px;
+    padding: 20px 0px 20px 0px;
 }
 
 .structures-card {
@@ -156,11 +156,11 @@
     padding: 0px;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1150px) {
     .structures-container {
         overflow-x: scroll;
         overflow-y: hidden;
-        padding-left: 200px;
+        padding-left: 150px;
         gap: 40px;
     }
 
