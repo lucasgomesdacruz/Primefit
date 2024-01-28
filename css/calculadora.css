@@ -62,15 +62,17 @@
     letter-spacing: 3px;
 }
 
-@media (max-width: 900px) {
-    .calculadora-bg {
-        padding: 40px 0px 40px 0px;
-    }
-
+@media (max-width: 1000px) {
     .calculadora-contaitaner-img i {
         margin: 10px;
     }
     
+}
+
+@media (max-width: 900px) {
+    .calculadora-bg {
+        padding: 40px 0px 40px 0px;
+    }
 }
 
 @media (max-width: 450px) {
