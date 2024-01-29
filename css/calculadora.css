@@ -21,6 +21,7 @@
 
 .calculadora-container i {
     font-size: 25px;
+    margin: 0px 10px 10px 10px;
 }
 
 .divAltura, .divPeso, .divCalc {
@@ -76,11 +77,12 @@
         padding: 40px 0px 40px 0px;
     }
     .calculadora-container i {
-        font-size: 20px;
+        font-size: 25px;
+        margin: 0px 10px 10px 10px;
     }
 }
 
-@media (max-width: 455px) {
+@media (max-width: 500px) {
     .calculadora-container input, 
     .calculadora-container button {
         font-size: 15px;
@@ -91,7 +93,8 @@
     }
 
     .calculadora-container i {
-        font-size: 20px;
+        font-size: 18px;
+        margin: 0px 10px 10px 10px;
     }
     
     .calculadora-container {
