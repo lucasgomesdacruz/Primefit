@@ -4,20 +4,23 @@
     padding: 140px 0px 140px 0px;
 }
 
-.calculadora-container {
-    width: 500px;
-    gap: 20px;
-}
-
-.calculadora-container h2 {
-   text-align: center;
-   font-size: 42px;
-}
-
 .calculadora-contaitaner-img i {
     font-size: 200px;
     margin-right: 100px;
     color: var(--color-main-secondary-1);
+}
+
+.calculadora-container {
+    max-width: 500px;
+    gap: 20px;
+}
+
+.calculadora-container h2 {
+   font-size: 42px;
+}
+
+.calculadora-container i {
+    font-size: 25px;
 }
 
 .divAltura, .divPeso, .divCalc {
@@ -66,16 +69,18 @@
     .calculadora-contaitaner-img i {
         margin: 10px;
     }
-    
 }
 
 @media (max-width: 900px) {
     .calculadora-bg {
         padding: 40px 0px 40px 0px;
     }
+    .calculadora-container i {
+        font-size: 20px;
+    }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 455px) {
     .calculadora-container input, 
     .calculadora-container button {
         font-size: 15px;
@@ -84,9 +89,13 @@
     .calculadora-bg {
         padding: 10px 0px 10px 0px;
     }
+
+    .calculadora-container i {
+        font-size: 20px;
+    }
     
     .calculadora-container {
-        max-width: 300px;
+        max-width: 400px;
         gap: 10px;
     }
     
@@ -100,7 +109,7 @@
     }
     
     .divAltura, .divPeso, .divCalc {
-        width: auto;
+        width: 250px;
         gap: 10px;
     }
     

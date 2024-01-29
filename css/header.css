@@ -46,7 +46,7 @@ header {
     }
 
     .container-lg-header img {
-        max-width: 30px;
+        width: 40px;
     }
 
     .navbar-nav {
