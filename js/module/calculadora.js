@@ -14,8 +14,14 @@ export default function calculadora() {
     }
 
     openModalButton.addEventListener("click", handleClick);
+    openModalButton.addEventListener("touchstart", handleClick);
+
     closeModalButton.addEventListener("click", handleClick);
+    closeModalButton.addEventListener("touchstart", handleClick);
+
     fade.addEventListener("click", handleClick);
+    fade.addEventListener("touchstart", handleClick);
+
 
 
     const resultado = document.querySelector('#resultado');
@@ -27,7 +33,7 @@ export default function calculadora() {
       let valor = input.value;
       
       if (valor.length > 4) {
-          input.value = valor.slice(0, 4);
+          input.value = valor.slice(1, 4);
       }
     };
     
@@ -36,7 +42,8 @@ export default function calculadora() {
             let imc = (peso.value / (altura.value * altura.value)).toFixed(2);
     
             let classification = '';
-    
+            let color = '';
+            
             if (imc < 18.5) {
                 classification = 'Abaixo do peso';
                 color = 'red';
