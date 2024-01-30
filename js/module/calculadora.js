@@ -12,7 +12,7 @@ export default function calculadora() {
     function handleClick() {
         toggleModal();
     }
-
+    
     openModalButton.addEventListener("click", handleClick);
     openModalButton.addEventListener("touchstart", handleClick);
 
@@ -21,8 +21,6 @@ export default function calculadora() {
 
     fade.addEventListener("click", handleClick);
     fade.addEventListener("touchstart", handleClick);
-
-
 
     const resultado = document.querySelector('#resultado');
     const altura = document.querySelector('#altura');
