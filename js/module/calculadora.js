@@ -1,8 +1,28 @@
 export default function calculadora() {
+    const openModalButton = document.querySelector("#open-modal");
+    const closeModalButton = document.querySelector("#close-modal");
+    const modal = document.querySelector("#modal");
+    const fade = document.querySelector("#fade");
+
+    function toggleModal() {
+        modal.classList.toggle("hide");
+        fade.classList.toggle("hide");
+    }
+
+    function handleClick() {
+        toggleModal();
+    }
+
+    openModalButton.addEventListener("click", handleClick);
+    closeModalButton.addEventListener("click", handleClick);
+    fade.addEventListener("click", handleClick);
+
+
     const resultado = document.querySelector('#resultado');
     const altura = document.querySelector('#altura');
     const peso = document.querySelector('#peso');
-    
+
+
     window.validarInput = function(input) { // window torna acessível globalmente.
       let valor = input.value;
       
@@ -19,25 +39,26 @@ export default function calculadora() {
     
             if (imc < 18.5) {
                 classification = 'Abaixo do peso';
-                resultado.style.color = 'red';
+                color = 'red';
             } else if (imc < 25) {
                 classification = 'Peso normal';
-                resultado.style.color = 'green';
+                color = 'green';
             } else if (imc < 30) {
                 classification = 'Acima do peso';
-                resultado.style.color = 'orange';
+                color = 'orange';
             } else if (imc < 35) {
                 classification = 'Obesidade Grau I';
-                resultado.style.color = 'red';
+                color = 'red';
             } else if (imc < 41) {
                 classification = 'Obesidade Grau II';
-                resultado.style.color = 'red';
+                color = 'red';
             } else {
                 classification = 'Obesidade Grau III';
-                resultado.style.color = 'red';
+                color = 'red';
             }
             altura.style.border = '';
             peso.style.border = '';
+            resultado.style.color = color;
             imc = imc.replace(/[.-]/g, ',');
             resultado.innerHTML = `IMC: ${imc} (${classification})`;
         } else {
