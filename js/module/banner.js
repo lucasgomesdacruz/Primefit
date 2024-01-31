@@ -17,7 +17,7 @@ export default function banner() {
         currentBannerIndex = (currentBannerIndex + 1) % banners.length;
         showBanner(currentBannerIndex);
     }
-    setInterval(nextBanner, 5000);
+    setInterval(nextBanner, 3000);
 }
 
 

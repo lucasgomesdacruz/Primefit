@@ -14,7 +14,19 @@ export default function mensagem() {
         });
     }
     mensagemWpp();
+
+    const enviarPlanoWpp = document.querySelectorAll('#enviarPlanoWpp')
+    console.log(enviarPlanoWpp)
+    const planoUm = 99
+
+    enviarPlanoWpp.forEach(function(element) {
+        element.addEventListener('click', function() {
+            console.log('clicou em um plano')
+        })
+    })
 }
+
+
 
 
 
