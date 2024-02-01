@@ -1,7 +1,7 @@
 let listElement = document.querySelector("#app");
 let loadingElement = document.createElement("h3"); // texto caso a Api demore a carregar
 loadingElement.classList.add("carregando");
-loadingElement.textContent = "Carregando..."; // Texto exibido enquanto carrega a api
+loadingElement.textContent = "Carregando...";
 listElement.appendChild(loadingElement);
 
 let posts = [];
@@ -11,7 +11,7 @@ function nutriApp() {
         .then((r) => r.json())
         .then((json) => {
             posts = json;
-            listElement.removeChild(loadingElement); //remove o texto carregando 
+            listElement.removeChild(loadingElement); 
 
             posts.map((item) => {
                 let liElement = document.createElement("li");
