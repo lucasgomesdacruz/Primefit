@@ -5,6 +5,8 @@ import mensagem from './js/module/mensagem.js'
 import cardsInstrutor from './js/module/cards-instructor.js'
 import sliderFeedback from './js/module/slider-feedback.js'
 import calculadora from './js/module/calculadora.js'
+    
+new WOW().init();
 
 scrollSuave()
 buttonTop()
