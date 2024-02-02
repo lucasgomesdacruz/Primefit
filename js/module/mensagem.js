@@ -10,7 +10,7 @@ export default function mensagem() {
     function mensagemWpp() {
         botoesEnviarMensagem.forEach(function(botao) {
             botao.addEventListener("click", function() {
-                let texto = `Olá *PrimeFit*, gostaria de mais informações`;
+                let texto = `Olá *PrimeFit*, gostaria de mais informações.`;
                 let encode = encodeURIComponent(texto);
                 let URL = `https://wa.me/${numero}?text=${encode}`;
 
@@ -34,11 +34,11 @@ export default function mensagem() {
         enviarPlanoWpp.forEach(function(element, index) {
             element.addEventListener('click', function() {
                 let plano = resultado[index].toUpperCase()
-                let texto = `Olá *PrimeFit*, gostaria de mais informações sobre o *${plano}*`;
+                let texto = `Olá *PrimeFit*, gostaria de mais informações sobre o *${plano}*.`;
                 let encode = encodeURIComponent(texto);
                 let URL = `https://wa.me/${numero}?text=${encode}`;
 
-                window.open(URL, `_blank`);
+                window.open(URL,`_blank`);
             })
         })
     }
