@@ -44,6 +44,12 @@
     background-color: var(--color-details);
     font-size: 18px;
     border-radius: 2px;
+    color: var(--color-main);
+    transition: all 0.3s ease-in-out;
+}
+
+.text-banner button:hover {
+    background-color: #CCD611;
 }
 
 .image img{
@@ -93,9 +99,8 @@
     .text-banner h1 {
         font-size: 35px;
         line-height: 42px;
-        letter-spacing: 4px;
+        letter-spacing: 3px;
         max-width: 350px;
-        
     }
     
     .text-banner p {
