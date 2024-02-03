@@ -221,6 +221,7 @@
 
     .card-body {
         padding: 0px !important;
+        width: 190px;
     }
 
     .structures-card {
@@ -319,6 +320,7 @@
     
     .card-body {
         padding: 0px !important;
+        width: 150px;
     }
     
     .structures-icons {

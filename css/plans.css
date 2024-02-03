@@ -140,6 +140,7 @@
     .title-plans  {
         max-width: 350px;
         margin: 0 auto;
+        padding: 0px 0px 40px 0px;
     }
 
     .title-plans h2 {

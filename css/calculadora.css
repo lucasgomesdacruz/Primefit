@@ -176,7 +176,7 @@
 
     .calculadora-container i {
         font-size: 22px;
-        margin: 0px 10px 10px 10px;
+        margin: 0px 10px 10px 5px;
     }
     
     .calculadora-container {
@@ -190,7 +190,7 @@
 
     .calculadora-contaitaner-img i {
         font-size: 100px;
-        margin: 0px 10px 50px 10px;
+        margin: 10px 10px 50px 10px;
     }
 
     .divAltura, .divPeso, .divCalc {
