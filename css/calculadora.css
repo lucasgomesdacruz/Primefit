@@ -49,6 +49,7 @@
     border-collapse: collapse;
     margin: 0px;
 }
+
 .modal-body th, td {
     border: 1px solid black;
     text-align: left;
@@ -83,8 +84,6 @@
     top: 0;
 }
 
-
-
 .calculadora-contaitaner-img i {
     font-size: 200px;
     margin-right: 100px;
@@ -104,7 +103,7 @@
     font-size: 25px;
     margin: 0px 10px 10px 10px;
     cursor: pointer;
-}
+} 
 
 .divAltura, .divPeso, .divCalc {
     width: 500px;

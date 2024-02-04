@@ -16,8 +16,9 @@
 }
 
 .text-banner {
-    margin-top: 200px;
+    margin-top: 200px; 
     max-width: 650px;
+    height: 300px;
     position: absolute;
     z-index: 9; 
 }
@@ -43,7 +44,6 @@
 .text-banner button {
     background-color: var(--color-details);
     font-size: 18px;
-    border-radius: 2px;
     color: var(--color-main);
     transition: all 0.3s ease-in-out;
 }
@@ -65,12 +65,9 @@
 }
 
 @media (max-width: 900px) {
-    .banner {
-        max-height: 100%;
-    }
     .text-banner {
         margin-top: 50px;
-        margin-bottom: 50px;
+        margin-bottom: 50px; 
         position: relative;
     }
     .text-banner h1 {
