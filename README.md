@@ -8,7 +8,7 @@ integrando uma API para o blog. Destaco a usabilidade aprimorada com manipulaç�
 
 ### 👷 Autores
 
-**Lucas Gomes - Frontend do projeto - [@LucasGomes](https://github.com/lucasgomesdacruz)**
+**Lucas Gomes - Front-End do projeto - [@LucasGomes](https://github.com/lucasgomesdacruz)**
 
 ### 📄 Licença
 Esse projeto está sob a licença (MIT License)
