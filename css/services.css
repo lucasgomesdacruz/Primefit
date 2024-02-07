@@ -70,6 +70,10 @@
     margin: 100px 0px 100px 0px;
 }
 
+.card-body {
+    max-width: 190px;
+}
+
 .structures-card, 
 .structures-card img {
     min-width: 200px;

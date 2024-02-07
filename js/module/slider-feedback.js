@@ -1,3 +1,4 @@
+/* eslint-disable no-inner-declarations */
 export default function sliderFeedback() {
     document.addEventListener('DOMContentLoaded', function () {
         const sliders = document.querySelectorAll('.slider');
@@ -29,6 +30,7 @@ export default function sliderFeedback() {
                 showCurrentSlide();
             }
     
+            
             function prevSlider() {
                 hideAllSlides();
                 if (currentSlide === 0) {
@@ -38,7 +40,6 @@ export default function sliderFeedback() {
                 }
                 showCurrentSlide();
             }
-    
             btnNext.addEventListener('click', nextSlider);
             btnPrev.addEventListener('click', prevSlider);
     

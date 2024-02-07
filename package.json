@@ -1,0 +1,17 @@
+{
+  "name": "primefit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "build": "webpack --mode production --entry ./script.js -o ./main.js",
+    "dev": "webpack --mode development --entry  ./script.js -o ./main.js --watch"
+  },
+  "author": "lucas gomes",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "webpack": "^5.90.1",
+    "webpack-cli": "^5.1.4"
+  }
+}
