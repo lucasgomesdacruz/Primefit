@@ -1,17 +1,11 @@
 {
   "name": "primefit",
   "version": "1.0.0",
-  "description": "",
+  "description": "integrando uma API para o blog. Destaco a usabilidade aprimorada com manipulação eficiente do DOM e a modernização visual com FontAwesome. O código organizado e a otimização de imagens para WebP contribuem para um desempenho eficiente. Este projeto demonstra minha habilidade em criar websites interativos e visualmente atraentes. HTML, CSS, Bootstrap e JavaScript.",
   "main": "script.js",
   "scripts": {
-    "build": "webpack --mode production --entry ./script.js -o ./main.js",
-    "dev": "webpack --mode development --entry  ./script.js -o ./main.js --watch"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "lucas gomes",
-  "license": "ISC",
-  "devDependencies": {
-    "eslint": "^8.56.0",
-    "webpack": "^5.90.1",
-    "webpack-cli": "^5.1.4"
-  }
+  "author": "",
+  "license": "ISC"
 }
