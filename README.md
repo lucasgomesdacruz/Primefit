@@ -13,7 +13,7 @@ Clone o projeto e use na sua ide
 
 **Lucas Gomes - Front-End do projeto - [@LucasGomes](https://github.com/lucasgomesdacruz)**
 
-###Acesso ao projeto
+### Acesso ao projeto
 Você pode acessar o projeto final clicando aqui: <a>https://lucasgomesdacruz.github.io/Primefit/</a>
 
 ### 📄 Licença
